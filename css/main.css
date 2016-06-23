@@ -1,0 +1,142 @@
+/*most of the header settings were modified directly from css/foundation.css */
+
+section {
+	position: absolute;
+	float:right;
+	background-color: yellow;
+}
+
+/*flexboxes power*/
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 400px;
+}
+
+/*end flexboxes power*/
+
+
+/*TOOLTIPS*/
+.tooltip {
+	background-color: black;
+	color: white;
+}
+
+.tooltip h3 {
+	color: white;
+}
+/*TOOLTIPS*/
+
+
+.top-bar {
+	background-color: #78312f;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 20px;
+}
+
+.top-bar-section ul li>a { /*das Menu Dings*/
+	font-size: 1em;
+} 
+
+.top-bar-section ul li>a:hover {
+  background-color: #78312f;
+} 
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	background-color: #78312f;
+	color: white;
+	height: 100%;
+}	
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	color: white;	
+}
+
+
+#description {
+	max-width: 100%;
+	background-color: #78312f;
+}
+
+#big {
+	background-color: #78312f;
+}
+
+
+#navigation {
+	max-width: 100%;
+	background-color: #78312f;
+	/*background-color: orange;	*/
+}
+
+
+#AppDescription {
+	/*text-align: center;*/
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+	padding-bottom: 15px;
+	padding-right: 80px;
+}
+
+
+#tech {
+	padding-top: 10px;
+	background-color: #9b59b6;
+	background-image: url('../images/pattern.jpg');
+}
+
+
+#Features {
+	padding-top: 10px;	
+	background-color: black;
+}
+
+
+#Developer {
+	padding-top: 10px;	
+	background-color: #78312f;
+}
+
+
+#footerwrap {
+   	background: white;
+    color: black;
+    text-align: center;
+}
+
+
+/*media queries for pics*/
+@media only screen and (min-width: 40.063em) { 
+	.img-responsive {
+		max-width: 80%;
+	}
+}
+
+
+@media screen and (min-width: 1160px) {
+    #AppDescription {
+        padding-top: 150px;
+
+    }
+}
+
+
+@media screen and (min-width: 1159px) {
+    #AppDescription {
+        padding-top: 50px;     
+    }
+}
+
+@media screen and (min-width: 755px) {
+    #AppDescription {
+        padding-top: none;    
+    }
+}

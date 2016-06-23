@@ -1,0 +1,152 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+    <title>Thesis Website</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+<!-- Nav Section -->
+<div class="large-12 columns" id="big">  
+  <!-- Role of navigation has to be included for responsive menu to work -->
+  <nav class="top-bar" data-topbar role="navigation">
+
+    <ul class="title-area">
+      <li class="logo">
+        <img src="images/fslogoF.gif" alt="logo" width="50" height="50">
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a>
+      </li>
+    </ul>
+
+      <section class="top-bar-section">
+    <!-- Right Nav Section -->
+
+    <!--magellan is sticky by default, and will be changed on foundation 6 (I've used foundation 5) -->
+        <ul class="right" id="navi" data-magellan-expedition="fixed" data-options="destination_threshold:65;throttle_delay:0;">
+          <li class="active" data-magellan-arrival="AppDescription"><a href="#AppDescription">ABOUT</a></li>
+          <li class="active" data-magellan-arrival="tech"><a href="#tech">TECHNOLOGIES</a></li>
+          <li class="active" data-magellan-arrival="Features"><a href="#Features">FEATURES</a></li>
+          <li class="active" data-magellan-arrival="Developer"><a href="#Developer">DEVELOPER</a></li>
+        </ul>
+      </section>    
+
+  </nav>
+</div>
+<!-- End Nav Section -->    
+
+<!-- Anfang von description --> 
+  <section class="large-12 columns" id="description">
+
+    <div class="large-4 medium-4 columns">
+      <img alt="placeholder" class="img-responsive" src="images/hand.gif">      
+    </div>
+
+    <div class="large-8 medium-8 columns" id="AppDescription">
+        
+      <h3>About</h3>   
+      This application is designed for the international students who will be attending Fanshawe. The application has different online and offline features which will help the student to find his/her way around the school and other important facilities. 
+
+    </div>
+  </section>
+<!-- Ende von description -->   
+
+  <section class="large-12 columns" id="tech"> <!-- TECH -->
+    <div class="large-11 large-centered columns">
+      <h3>Technologies</h3> 
+      <p>Different technologies where used to develope this app. Find a list below: </p>
+      <p>Please scroll over the icons to see a short description about the used scripting languages and programs, and also how they were implemented to put the application together.</p>
+
+    </div>  
+            
+    <div class="large-11 large-centered columns"> <!--PIC DIV -->
+    <div class="large-4 small-4 columns"> <!--foundation has its own tooltip library -->
+      <span data-tooltip aria-haspopup="true" class="has-tip tip-right" title="<h3>PhoneGap:</h3>PhoneGap allows you to upload your HTML, CSS and JavaScript assets, and packages it with the most up-to-date SDK for the targeted platform. <br><br>PhoneGap was used to package this application to make it work on phone and tablets.">
+        <img class="img-responsive" src="images/PG02.png" alt="mockup">  
+      </span>      
+    </div>  
+
+    <div class="large-4 small-4 columns"> 
+      <span data-tooltip aria-haspopup="true" class="has-tip tip-bottom" title="<h3>Ionic</h3> Ionic is a free and open source, which offers a library of mobile-optimized HTML, CSS and JS CSS components, gestures, and tools for building highly interactive apps. <br><br>Ionic was used to make this app look and feel like a native phone app.">      
+        <img class="img-responsive" src="images/ionic02.png" alt="ionic logo">
+      </span>  
+    </div> 
+
+
+    <div class="large-4 small-4 columns"> 
+      <span data-tooltip aria-haspopup="true" class="has-tip tip-left" title="<h3>PHP</h3> PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. <br><br>All the information contained in the app is built into a PHP database.">      
+        <img class="img-responsive" src="images/php-logo-Converted-01.png" alt="php logo">
+      </span>  
+    </div> 
+
+
+    <div class="large-6 small-6 columns"> 
+      <span data-tooltip aria-haspopup="true" class="has-tip tip-right" title="<h3>Angular JS</h3>AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.<br><br>Angular JS was used together with Ionic. ">      
+        <img class="img-responsive" src="images/angular02.png" alt="angular logo">
+      </span>  
+    </div> 
+
+    <div class="large-6 small-6 columns">
+      <span data-tooltip aria-haspopup="true" class="has-tip tip-left" title="<h3>HTML:</h3>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. <br><br>HTML was used to structure the general feel of the app. <br><br><h3>CSS:</h3> CSS3 stands for Cascading Style Sheets. <br> CSS is used to style pages and web applications. <br><br>CSS helped to style the the visual part. <br><br><h3>JavaScript:</h3> JavaScript is a high-level, dynamic, untyped, and interpreted programming language. <br><br>Angular is based off on JavaScript.">      
+        <img class="img-responsive" src="images/html-css-js-logos.png" alt="html, css and js logo">      
+      </span>  
+    </div>
+
+    </div> <!--PIC DIV -->
+  </section> <!-- END TECH -->
+
+
+  <section class=" small-12 large-12 columns" id="Features">  
+    <div class="large-11 large-centered columns">
+      <h3>Features</h3>       
+      <p>This phone application includes a variety of information which may be useful not only to international, but also for local students starting their first year.</p>
+        <ul>
+          <li>Checklist: This is a list of all the steps a student has to complete to assure they are enrolled in college. The list also includes links to other important student related webstites. </li>
+          <li>Contacts: A contact directory is included. Contacts which are listed to be reached over the phone or email include the Biz Booth, the library, etc.</li>
+          <li>Advisors: Advisors are assigned to all of the international students depending of where they come from. It is important for the students to know their names and contact information.</li>
+          <li>Locations: This is a list of different stores with their respective bus routes from the college.</li>
+          <li>Map: A map of the college with their room description is included.</li>
+          <li>Housing: Students will most likely need to know where to live when they arrive at Canada.</li>
+          <li>Entertainment: This is a list of bars and other places in London Downtown where students can go when they have free time.</li>
+        </ul>  
+      <p>This app was developed over roughly 4 months.</p>     
+    </div>
+  </section>  
+
+  <section class="large-12 columns" id="Developer">  
+    <div class="large-11 large-centered columns">
+     <h3>Developer</h3>   
+      <p>My name is Diana Chávez and I'm an international student at Fanshawe College. I'm originally from El Salvador (Central America) and came to Canada last year to study a postgraduate in Interactive Media. </p>
+      <p>I have a degree in Social Media and Journalism, and I have several years of working experience in different areas. I speak fluently three languages (and trying to at least learn one more), and I've enjoyed learning about the front end programming in this program. I can't wait to use my acquired knowledge in a workplace. 
+      </p>  
+    </div>
+  </section>  
+
+
+<!-- Footer -->
+
+  <div id="footerwrap"> 
+    <div id="footer">
+      <em><b>© Copyright 2016</b></em>
+    </div> 
+  </div>
+  
+<!-- Footer -->
+
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
+</html>
